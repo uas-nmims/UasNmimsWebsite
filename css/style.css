@@ -310,6 +310,16 @@ ul {
 
 /*custom margin classes*/
 
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /*margin top*/
 
@@ -803,6 +813,11 @@ ul {
 /* ============================
     Our Services
 =============================== */
+
+.services {
+    display: grid;
+    grid-template-columns: auto;
+}
 
 .single-service .media .fa:before {
     border-radius: 50%;
@@ -1670,7 +1685,30 @@ span.count-description {
     display: flex;
     justify-content: center;
     margin: 2em;
-    padding-right: 6.5em;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-iframe-youtube {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+    width: 60%;
+    height: 60%;
 }
 
 .phNo {
@@ -1682,9 +1720,4 @@ span.count-description {
 .sponsors {
     display: flex;
     justify-content: center;
-    align-content: center;
-}
-
-.sponsor {
-    margin: 2em;
 }
