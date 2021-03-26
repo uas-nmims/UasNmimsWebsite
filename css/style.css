@@ -1059,7 +1059,7 @@ ul {
 .portfolio-showcase #grid .thumbnails a img {
     display: block;
     position: relative;
-    width: inherit;
+    width: 100%;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
